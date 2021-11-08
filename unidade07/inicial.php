@@ -1,3 +1,10 @@
+<?php 
+    $_nome = "Marcello magno";
+    $_salario = 1200;
+?>
+
+
+
 <!doctype html>
 <html>
     <head>
@@ -6,5 +13,9 @@
     </head>
 
     <body>
+        <?php 
+            echo $_nome;
+            echo $_salario;
+        ?>
     </body>
 </html>
