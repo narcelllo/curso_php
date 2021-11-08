@@ -15,6 +15,11 @@
         echo "hello world";
         ?>
     </p>
+    <p>
+        <?php
+        echo "5*4";
+        ?>
+    </p>
 </body>
 
 </html>
