@@ -1,3 +1,9 @@
+<?php 
+    $_marca = "Fiat";
+    $_modelo = "Uno";
+?>
+
+
 <!doctype html>
 <html>
     <head>
@@ -5,7 +11,10 @@
         <title>Curso PHP FUNDAMENTAL</title>
     </head>
 
-    <body>        
+    <body>
+        <?php 
+            echo $_marca . " ". $_modelo;
+        ?>        
         
     </body>
 </html>
