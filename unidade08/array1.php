@@ -20,9 +20,10 @@
            echo $pc[4] . "</br>";
            echo count($pc) . "</br>";
         ?>
-
-        <?php 
-            print_r($pc);
-        ?>
+        <pre>
+            <?php 
+                print_r($pc);
+            ?>
+        </pre>
     </body>
 </html>
