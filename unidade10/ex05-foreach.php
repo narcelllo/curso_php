@@ -6,7 +6,21 @@
 </head>
 <body>
     <?php                    
-        $_salada = array("","","");
+        $_pc = array("cpu","memoria","placa mão","hd","fote");
+
+        for($i = 0; $i <= 3; $i ++){
+            echo $pc[$i] . "</br>";
+        }
+        // count() para buscar o numero de posições existem no array
+        for($i = 0; $i <= count($pc); $i ++){
+            echo $pc[$i] . "</br>";
+        }
+
+        foreach($pc as $pcs){
+            echo $pcs . "</br>";
+        }
+        
+
     ?>
 </body>
 </html>
