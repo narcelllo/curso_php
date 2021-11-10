@@ -5,7 +5,11 @@
     <title>CURSO PHP FUNDAMENTAL</title>
 </head>
 <body>
-    <?php                    
+    <?php
+        for($contador = 0; $contador <= 10; $contador ++) {
+            $sorteio = rand(1,100);
+            echo $sorteio;
+        }                  
 
     ?>
 </body>
