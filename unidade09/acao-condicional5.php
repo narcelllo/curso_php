@@ -7,6 +7,15 @@
     </head>
     <body>
         <?php 
+            $numero1 = 5;
+            $numero2 = "5";
+
+            if($numero1 == $numero2){ // usando apenas "==" na comparação 
+                //ele considera que são ambos numeros iguais se usar "===" sera análizado o valor e o tipo.
+                echo "são números iguais";
+            } else {
+                echo "não são números iguais";
+            }
 
         ?>
     </body>
