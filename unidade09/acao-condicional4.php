@@ -6,8 +6,28 @@
         <title>CURSO PHP FUNDAMENTAL</title>
     </head>
     <body>
-        <?php 
+        <?php
+            $fumante = true;
+            if ($fumante == true) {
+                echo "Você vai morrer!";
+            } else {
+                echo "Você vai morrer mais tarde!";
+            }
 
+            //$fumante = true;
+            //if ($fumante) { Já considera uma operação logica de igualdade
+            //    echo "Você vai morrer!";
+            //} else {
+            //    echo "Você vai morrer mais tarde!";
+            //}
+
+            
+            //$fumante = true;
+            //if (!$fumante) { Já considera uma operação logica de diferença
+            //    echo "Você vai morrer!";
+            //} else {
+            //    echo "Você vai morrer mais tarde!";
+            //}
         ?>
     </body>
 </html>
