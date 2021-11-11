@@ -5,8 +5,13 @@
     <title>CURSO PHP FUNDAMENTAL</title>
 </head>
 <body>
-    <?php 
+    <?php
 
+        function retornarDiaria(){
+            return 1500/30;
+        }
+
+        echo retornarDiaria();
     ?>
 </body>
 </html>
