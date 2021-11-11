@@ -5,6 +5,11 @@
         <title>Curso PHP FUNDAMENTAL</title>
     </head>
 
-    <body>
+    <body
+        <?php 
+            date_default_timezone_set('Brazil/east');
+            $agora = getdate();
+            print_r($agora);
+        ?>
     </body>
 </html>
