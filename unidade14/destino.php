@@ -8,20 +8,23 @@
     <body> 
         <pre>
             <?php
-                if(isset($_POST["nome"])==true){
+                /* if(isset($_POST["nome"])==true){
                     $nome = $_POST["nome"];
                 } else {
                     $nome = "Sem definição";
-                }
+                } */
 
-                if(isset($_POST["email"])==true){
+                $nome = isset($_POST["nome"]) ? $_POST["nome"] : "Sem definição";
+
+                /* if(isset($_POST["email"])==true){
                     $email = $_POST["email"];
                 } else {
                     $email = "Sem definição";
-                }
+                } */
+                $email = isset($_POST["email"]) ? $_POST["email"] : "Sem definição";
 
 
-                echo "Email: " . $email;
+                echo "Email: " . $nome, $email;
             ?>
         </pre>
     </body>
