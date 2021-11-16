@@ -7,12 +7,21 @@
 
     <body> 
         <pre>
-            <?php 
-                print_r($_POST);
-            ?>
+            <?php
+                if(isset($_POST["nome"])==true){
+                    $nome = $_POST["nome"];
+                } else {
+                    $nome = "Sem definição";
+                }
 
-            <?php 
-                echo $_POST["nome"];
+                if(isset($_POST["email"])==true){
+                    $email = $_POST["email"];
+                } else {
+                    $email = "Sem definição";
+                }
+
+
+                echo "Email: " . $email;
             ?>
         </pre>
     </body>
