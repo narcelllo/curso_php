@@ -6,5 +6,14 @@
     </head>
 
     <body> 
+        <pre>
+            <?php 
+                print_r($_POST);
+            ?>
+
+            <?php 
+                echo $_POST["nome"];
+            ?>
+        </pre>
     </body>
 </html>
