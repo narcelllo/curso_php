@@ -14,7 +14,7 @@
             <label for="email">Email</label>
             <input type="text" name="email" id="email">
             
-            <input type="submit" value="Enviar Cadastro">
+            <input type="submit" name="formulario" value="Enviar Cadastro">
         </form>
     </body>
 </html>
