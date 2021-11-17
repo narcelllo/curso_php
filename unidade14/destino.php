@@ -24,7 +24,8 @@
                 $email = isset($_POST["email"]) ? $_POST["email"] : "Sem definição";
 
 
-                echo "Email: " . $nome, $email;
+                echo "Email: " . $email;
+                echo "Nome: " . $nome;
             ?>
         </pre>
     </body>
